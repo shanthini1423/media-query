@@ -1,0 +1,42 @@
+<style>
+    .one {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+
+    .two {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+
+    .container {
+        display: flex;
+        gap: 10px;
+    }
+
+    @media screen and (max-width:600px) {
+        .two {
+            display: none;
+        }
+
+        .one {
+            border-radius: 50%;
+        }
+    }
+</style>
+<div class="container">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+</div>
